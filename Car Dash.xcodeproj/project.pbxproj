@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		534EDA5F1B56F33B0077DAC2 /* ExpandableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534EDA5E1B56F33B0077DAC2 /* ExpandableView.swift */; };
+		53655A361B55A36E003F64BF /* SongsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53655A351B55A36E003F64BF /* SongsCollectionView.swift */; };
+		53655A381B55A697003F64BF /* SongCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53655A371B55A697003F64BF /* SongCollectionCell.swift */; };
+		538BC30C1B54A60700F18EF0 /* DashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538BC30B1B54A60700F18EF0 /* DashButton.swift */; };
+		53B785D01B56CF6900B616C1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B785CF1B56CF6900B616C1 /* CoreMotion.framework */; };
 		53F0558A1B54669B002AC27D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F055891B54669B002AC27D /* AppDelegate.swift */; };
-		53F0558C1B54669B002AC27D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F0558B1B54669B002AC27D /* ViewController.swift */; };
-		53F0558F1B54669B002AC27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F0558D1B54669B002AC27D /* Main.storyboard */; };
+		53F0558C1B54669B002AC27D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F0558B1B54669B002AC27D /* MainViewController.swift */; };
 		53F055921B54669B002AC27D /* Car_Dash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53F055901B54669B002AC27D /* Car_Dash.xcdatamodeld */; };
 		53F055941B54669B002AC27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F055931B54669B002AC27D /* Assets.xcassets */; };
-		53F055971B54669B002AC27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F055951B54669B002AC27D /* LaunchScreen.storyboard */; };
+		53F0559F1B546785002AC27D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F0559E1B546785002AC27D /* MainView.swift */; };
+		53F055A11B546785002AC27D /* UIConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F055A01B546785002AC27D /* UIConstraints.swift */; };
+		53F055A31B546785002AC27D /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F055A21B546785002AC27D /* NowPlayingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		534EDA5E1B56F33B0077DAC2 /* ExpandableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableView.swift; sourceTree = "<group>"; };
+		53655A351B55A36E003F64BF /* SongsCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsCollectionView.swift; sourceTree = "<group>"; };
+		53655A371B55A697003F64BF /* SongCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCollectionCell.swift; sourceTree = "<group>"; };
+		538BC30B1B54A60700F18EF0 /* DashButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashButton.swift; sourceTree = "<group>"; };
+		53B785CF1B56CF6900B616C1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		53F055861B54669B002AC27D /* Car Dash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Dash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F055891B54669B002AC27D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53F0558B1B54669B002AC27D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		53F0558E1B54669B002AC27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53F0558B1B54669B002AC27D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		53F055911B54669B002AC27D /* Car_Dash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Car_Dash.xcdatamodel; sourceTree = "<group>"; };
 		53F055931B54669B002AC27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		53F055961B54669B002AC27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53F055981B54669B002AC27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F0559E1B546785002AC27D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ../MainView.swift; sourceTree = "<group>"; };
+		53F055A01B546785002AC27D /* UIConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstraints.swift; sourceTree = "<group>"; };
+		53F055A21B546785002AC27D /* NowPlayingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,15 +43,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B785D01B56CF6900B616C1 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53655A391B55A6A3003F64BF /* CustomObjects */ = {
+			isa = PBXGroup;
+			children = (
+				538BC30B1B54A60700F18EF0 /* DashButton.swift */,
+				53655A371B55A697003F64BF /* SongCollectionCell.swift */,
+			);
+			name = CustomObjects;
+			sourceTree = "<group>";
+		};
 		53F0557D1B54669B002AC27D = {
 			isa = PBXGroup;
 			children = (
+				53B785CF1B56CF6900B616C1 /* CoreMotion.framework */,
 				53F055881B54669B002AC27D /* Car Dash */,
 				53F055871B54669B002AC27D /* Products */,
 			);
@@ -57,14 +80,42 @@
 			isa = PBXGroup;
 			children = (
 				53F055891B54669B002AC27D /* AppDelegate.swift */,
-				53F0558B1B54669B002AC27D /* ViewController.swift */,
-				53F0558D1B54669B002AC27D /* Main.storyboard */,
+				53F055A51B546785002AC27D /* ViewControllers */,
+				53F055A41B546785002AC27D /* Views */,
+				53655A391B55A6A3003F64BF /* CustomObjects */,
+				53F055A61B546785002AC27D /* Extensions */,
 				53F055931B54669B002AC27D /* Assets.xcassets */,
-				53F055951B54669B002AC27D /* LaunchScreen.storyboard */,
 				53F055981B54669B002AC27D /* Info.plist */,
 				53F055901B54669B002AC27D /* Car_Dash.xcdatamodeld */,
 			);
 			path = "Car Dash";
+			sourceTree = "<group>";
+		};
+		53F055A41B546785002AC27D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53F055A21B546785002AC27D /* NowPlayingView.swift */,
+				53F0559E1B546785002AC27D /* MainView.swift */,
+				53655A351B55A36E003F64BF /* SongsCollectionView.swift */,
+				534EDA5E1B56F33B0077DAC2 /* ExpandableView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		53F055A51B546785002AC27D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				53F0558B1B54669B002AC27D /* MainViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		53F055A61B546785002AC27D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53F055A01B546785002AC27D /* UIConstraints.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +149,12 @@
 				TargetAttributes = {
 					53F055851B54669B002AC27D = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 7K27HYA2QV;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -124,9 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F055971B54669B002AC27D /* LaunchScreen.storyboard in Resources */,
 				53F055941B54669B002AC27D /* Assets.xcassets in Resources */,
-				53F0558F1B54669B002AC27D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,32 +192,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F0558C1B54669B002AC27D /* ViewController.swift in Sources */,
+				53F055A31B546785002AC27D /* NowPlayingView.swift in Sources */,
+				538BC30C1B54A60700F18EF0 /* DashButton.swift in Sources */,
+				534EDA5F1B56F33B0077DAC2 /* ExpandableView.swift in Sources */,
+				53655A381B55A697003F64BF /* SongCollectionCell.swift in Sources */,
+				53F0558C1B54669B002AC27D /* MainViewController.swift in Sources */,
+				53F0559F1B546785002AC27D /* MainView.swift in Sources */,
 				53F055921B54669B002AC27D /* Car_Dash.xcdatamodeld in Sources */,
+				53655A361B55A36E003F64BF /* SongsCollectionView.swift in Sources */,
+				53F055A11B546785002AC27D /* UIConstraints.swift in Sources */,
 				53F0558A1B54669B002AC27D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		53F0558D1B54669B002AC27D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53F0558E1B54669B002AC27D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		53F055951B54669B002AC27D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53F055961B54669B002AC27D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		53F055991B54669B002AC27D /* Debug */ = {
@@ -252,10 +295,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Car Dash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MTC.Car-Dash";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -263,10 +309,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Car Dash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MTC.Car-Dash";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -289,6 +338,7 @@
 				53F0559D1B54669B002AC27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
